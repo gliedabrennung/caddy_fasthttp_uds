@@ -1,4 +1,4 @@
-# WSP GOLANG (FastHTTP + Caddy via UDS)
+FastHTTP + Caddy via UDS server
 
 Высокопроизводительный бэкенд на Go с использованием **FastHTTP**, работающий за реверс-прокси **Caddy** через **Unix Domain Sockets (UDS)**.
 

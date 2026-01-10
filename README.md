@@ -17,7 +17,14 @@
 
 ## Запуск
 
-``text
+```text
 make dev
+```
+
+### Тестирование
+
+```text
+curl -vLk http://localhost
+```
 
 

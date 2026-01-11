@@ -2,6 +2,7 @@ package main
 
 import (
 	"log/slog"
+	"runtime"
 	"wsp_go/cmd/uds"
 	"wsp_go/internal"
 	"wsp_go/internal/router"
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	runtime.GOMAXPROCS(2)
 	r := router.InitRouter()
 	listener, socketPath := uds.InitUDSListener()
 	srv, err := server.StartServer(r, listener)

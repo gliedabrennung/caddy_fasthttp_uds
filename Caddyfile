@@ -13,9 +13,4 @@ localhost {
                                               header_up X-Forwarded-For {remote}
                                               header_up X-Forwarded-Proto {scheme}
                                           }
-
-    log {
-            output stdout
-            format console
-        }
 }

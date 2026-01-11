@@ -18,6 +18,10 @@ func StartServer(router *router.Router, ln net.Listener) (*fasthttp.Server, erro
 		WriteTimeout: 10 * time.Second,
 		IdleTimeout:  60 * time.Second,
 
+		ReadBufferSize:  8192,
+		WriteBufferSize: 8192,
+		Concurrency:     256 * 1024,
+
 		CloseOnShutdown: true,
 
 		MaxRequestBodySize: 4 * 1024 * 1024,

@@ -1,0 +1,5 @@
+h2o server (pid:62240) is ready to serve requests with 8 threads
+rh2o server (pid:63027) is ready to serve requests with 8 threads
+h2o server (pid:63464) is ready to serve requests with 8 threads
+rh2o server (pid:63827) is ready to serve requests with 8 threads
+received SIGTERM, gracefully shutting down

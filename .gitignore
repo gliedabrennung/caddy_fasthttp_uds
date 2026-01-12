@@ -2,3 +2,5 @@
 node_modules
 certificates/localhost.pem
 certificates/localhost-key.pem
+logs/access.log
+logs/error.log
